@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "name": "Decrypt's plugins",
-  "homepage": "https://github.com/Decryptu/pokeldn-decrypt-plugins",
+  "name": "pokeldn 繁體中文（台灣） / Traditional Chinese (Taiwan)",
+  "homepage": "https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW",
   "plugins": [
     {
-      "id": "sv-raid-battle",
-      "name": "Tera Raid battle server",
-      "version": "0.3.0",
-      "description": "Serves a Scarlet / Violet Tera Raid battle from the host, so the console and your Pokemon fight one battle.",
-      "author": "Decryptu",
-      "api": "1.6",
-      "download": "https://github.com/Decryptu/pokeldn-decrypt-plugins/releases/download/sv-raid-battle-0.3.0/sv-raid-battle-0.3.0.pokeplugin",
-      "sha256": "63d8abc9532e88be697837e7aa709d117d9b3b153db4f951b0b4acc6d611b470",
-      "size": 54977,
-      "homepage": "https://github.com/Decryptu/pokeldn-decrypt-plugins"
+      "id": "community-zh-tw",
+      "name": "繁體中文（台灣）語言包",
+      "version": "1.0.1",
+      "api": "1.9",
+      "description": "台灣繁體中文語言包，採用寶可夢官方譯名與台灣社群慣用語。",
+      "author": "Community translation (zh-TW)",
+      "download": "https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.1.pokeplugin",
+      "sha256": "2ba283d81d7e05df396e1d71dae6e215fd3673fd722e96e4a8b1358f68c5f3a6",
+      "size": 129382,
+      "homepage": "https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW"
     }
   ]
 }

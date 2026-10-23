@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.toml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.pokeplugin binary

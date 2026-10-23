@@ -1,5 +1,5 @@
 __pycache__/
 *.pyc
-*.pokeplugin
-dist/
 .pytest_cache/
+.DS_Store
+build/
