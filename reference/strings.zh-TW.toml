@@ -64,7 +64,7 @@
 "bank.in_the_bank_f69744" = "在銀行中"
 "bank.is_deleted_from_the_bank_on_this_computer_export_it_fir_c61b92" = "{value0}將從這台電腦的銀行中刪除。若要保留檔案，請先匯出。"
 "bank.it_needs_at_least_one_move_7a18ff" = "至少需要一個招式。"
-"bank.its_own_game_6e5aee" = "原本的遊戲"
+"bank.its_own_game_6e5aee" = "目前所在的遊戲"
 "bank.kept_as_a_pokemon_8c187f" = "保留為 {value0} 的寶可夢"
 "bank.legal_4787ea" = "合法"
 "bank.level_170930" = "等級"

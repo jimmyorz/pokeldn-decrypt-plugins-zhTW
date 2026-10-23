@@ -2,6 +2,8 @@
 
 為 [pokeldn](https://github.com/Decryptu/pokeldn) 提供符合台灣用語與寶可夢中文社群習慣的繁體中文介面。本儲存庫專門維護語言包、翻譯來源及更新參照。
 
+如果發現翻譯錯誤、用語不自然，或有更合適的譯法，歡迎提出 [Issue](https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/issues) 或 [PR](https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/pulls)，協助改進翻譯。回報時請盡量附上相關畫面或原文字串，方便確認與調整。
+
 ## 下載與安裝
 
 **[下載最新 pokeldn-zh-TW-pokeplugin](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.3.pokeplugin)**
@@ -51,6 +53,14 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 
 ## 授權 / License
 
-翻譯內容衍生自 pokeldn，依 **AGPL-3.0-or-later** 提供，完整條款見 [LICENSE](LICENSE)。寶可夢及相關名稱屬各權利人所有。
+翻譯內容衍生自 pokeldn，依 **AGPL-3.0-or-later** 提供，完整條款見 [LICENSE](LICENSE)。
 
-The translations are derived from pokeldn and provided under **AGPL-3.0-or-later**; see [LICENSE](LICENSE). Pokémon and related names belong to their respective rights holders.
+pokeldn 與本語言包皆為非官方同好專案，與任天堂、The Pokemon Company、Game Freak 或 Creatures 無關，亦未獲上述公司的認可或贊助。寶可夢、Nintendo Switch 及相關名稱與角色的商標權屬於各權利人。依據 AGPL 第 7(e) 條，本授權不授予使用上述商標或任何其他寶可夢智慧財產的權利。
+
+作者不支持將 pokeldn 用於商業、宣傳或品牌活動，包括神秘禮物配信。任何人若將其用於上述用途，均須自行負責取得所需的權利授權。
+
+The translations are derived from pokeldn and provided under **AGPL-3.0-or-later**; see [LICENSE](LICENSE).
+
+pokeldn and this language pack are unofficial fan projects. They are not affiliated with, endorsed by or sponsored by Nintendo, The Pokemon Company, Game Freak or Creatures. Pokemon, Nintendo Switch and the related names and characters are trademarks of their owners. Under section 7(e) of the AGPL, no right to use those trademarks or any other Pokemon intellectual property is granted.
+
+The authors do not endorse using pokeldn for commercial, promotional or branded events, including Mystery Gift distributions. Anyone who does so is responsible for obtaining the rights it requires.
