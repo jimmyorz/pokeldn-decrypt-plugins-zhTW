@@ -4,10 +4,10 @@
 
 ## 下載與安裝
 
-**[下載最新 pokeldn-zh-TW-pokeplugin](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.2.pokeplugin)**
+**[下載最新 pokeldn-zh-TW-pokeplugin](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.3.pokeplugin)**
 
 1. 開啟 **Plugins → Add a plugin**，選擇下載的 `.pokeplugin`，依畫面提示完成安裝。
-2. 前往 **Settings → App language**，選擇 **繁體中文（台灣）語言包**。
+2. 前往 **Settings → App language**，選擇 **繁體中文（台灣）**。
 3. **完整退出 pokeldn，再重新開啟。**
 
 > **安裝或啟用外掛不會自動切換語言。** 如果介面仍是英文，請確認已完成第 2、3 步。「App language」控制介面語言，與訓練家／寶可夢的語言設定不同。
@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 | --- | --- |
 | 目前翻譯對應版本 | pokeldn **0.35.0** |
 | 更新日期 | **2026-10-23** |
-| 語言包版本 | `1.0.2` |
+| 語言包版本 | `1.0.3` |
 | 外掛 API | `1.9` |
 | 語系 | `zh-TW` |
 | 外掛 ID | `community-zh-tw` |
