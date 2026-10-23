@@ -1193,7 +1193,7 @@
 "plugins.the_same_signed_the_version_installed_before_b19d2b" = "先前安裝的版本也使用相同的 {value0} 簽章。"
 "plugins.the_version_installed_before_was_signed_by_its_author_t_934b9e" = "先前安裝的版本具有作者簽章，此檔案卻沒有，可能由其他人製作。"
 "plugins.this_plugin_was_copied_into_the_plugins_folder_by_hand__25f250" = "此外掛是手動複製到外掛資料夾的，尚未經過 App 檢查。"
-"plugins.this_pokeldn_runs_plugin_api_4e68e6" = "此版本 pokeldn 使用外掛 API {value0}.{value1}。"
+"plugins.this_pokeldn_runs_plugin_api_4e68e6" = "此版本 pokeldn 使用 plugin API {value0}.{value1}。"
 "plugins.tool_d0d814" = "{value0} · {value1} 個工具{value2}"
 "plugins.turn_it_on_after_installing_3346b3" = "安裝後啟用"
 "plugins.turn_off_06f0e2" = "停用"

@@ -30,11 +30,11 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 | 目前翻譯對應版本 | pokeldn **0.35.0** |
 | 更新日期 | **2026-10-23** |
 | 語言包版本 | `1.0.3` |
-| 外掛 API | `1.9` |
+| Plugins API | `1.9` |
 | 語系 | `zh-TW` |
-| 外掛 ID | `community-zh-tw` |
+| Plugins ID | `community-zh-tw` |
 
-此語言包以表列的 pokeldn 版本與外掛 API 為製作及檢查基準，屬於社群翻譯，非 pokeldn 或寶可夢官方發布。
+此語言包以表列的 pokeldn 版本與Plugins API 為製作及檢查基準，屬於社群翻譯，非 pokeldn 或寶可夢官方發布。
 
 ## 檔案配置
 

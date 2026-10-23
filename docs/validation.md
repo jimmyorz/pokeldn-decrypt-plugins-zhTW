@@ -3,7 +3,7 @@
 ## 翻譯基準
 
 - 上游專案：[`Decryptu/pokeldn`](https://github.com/Decryptu/pokeldn)。
-- 基準版本：pokeldn **0.35.0**／外掛 API **1.9**。
+- 基準版本：pokeldn **0.35.0**／Plugins API **1.9**。
 - 基準 commit：[`7d1258a04c4f777bb446ae2cc47ddfdf45a99dd5`](https://github.com/Decryptu/pokeldn/tree/7d1258a04c4f777bb446ae2cc47ddfdf45a99dd5)。
 - [該版本的英文範本](https://github.com/Decryptu/pokeldn/blob/7d1258a04c4f777bb446ae2cc47ddfdf45a99dd5/pokeldn/app/data/strings.en.toml)。
 - [該版本的語言包格式說明](https://github.com/Decryptu/pokeldn/blob/7d1258a04c4f777bb446ae2cc47ddfdf45a99dd5/docs/plugins.md)。
