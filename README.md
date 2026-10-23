@@ -33,33 +33,13 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 
 此語言包以表列的 pokeldn 版本與外掛 API 為製作及檢查基準，屬於社群翻譯，非 pokeldn 或寶可夢官方發布。
 
-## 翻譯範圍
-
-| 項目 | 內容 |
-| --- | --- |
-| 主介面 | 1,688 個字串，與基準英文表的鍵值完全對應 |
-| 原文對照 | 1,641 筆，部分與主介面重疊 |
-| 進階選項說明 | 533 個常用說明 |
-| 遊戲與社群術語 | 109 筆 |
-| 動態訊息 | 31 個範本 |
-
-採用「異色、個體值、努力值、特性、招式、配信、太晶團體戰、集友圈」等用語，相關欄位保留 IV、EV、PID 等縮寫。
-
-寶可夢種類、招式、特性等名稱在程式支援的位置使用 PKHeX 的繁體中文資料；本包未另行收錄完整的 PKHeX 名稱資料。
-
-### 尚未翻譯的範圍
-
-- 基準版本的 2,167 個工具說明中，仍有 1,634 個主要涉及底層通訊與診斷的說明未翻譯。
-- 使用文件、原始通訊紀錄、檔名、設定儲存值、尚未收錄的模組訊息及第三方外掛文字，仍可能保留英文。
-- 33 個主介面值刻意保留原文，包括縮寫、指令、純變數排列及可匯入的 Showdown 範例。
-- 兩個原始訊息會由程式直接傳入英文複數字尾 `s`，純資料語言包無法移除；詳見語言包說明。
-
 ## 檔案配置
 
 | 路徑 | 用途 |
 | --- | --- |
 | [`packages/`](packages/) | 可安裝的 `.pokeplugin` 檔 |
 | [`language-pack/`](language-pack/) | 主字串及所有補充翻譯的 TOML 原始檔 |
+| [`language-pack/README.md`](language-pack/README.md) | 翻譯涵蓋範圍、用語原則與已知限制 |
 | [`reference/strings.en.toml`](reference/strings.en.toml) | 製作時的上游英文基準 |
 | [`reference/strings.zh-TW.toml`](reference/strings.zh-TW.toml) | 同一基準的完整中文對照，內容與 `language-pack/strings.toml` 相同 |
 | [`reference/upstream.json`](reference/upstream.json) | 上游版本與檔案比對資料 |
