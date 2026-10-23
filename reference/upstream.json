@@ -8,14 +8,15 @@
   "english_source_path": "pokeldn/app/data/strings.en.toml",
   "english_git_blob_sha": "1d4161830c26d551eadd38130aef564445fbb51a",
   "english_sha256": "4ad9ca59f15292ebefe3377c4f40a1c7b60a2cd8996a61c4c35d8c9727305d7e",
-  "chinese_sha256": "a0836c6d80ab0dd7f4232eb8f104fcfbc6a84a23e733620ca6a14c5caa9b31a4",
-  "package_sha256": "2ba283d81d7e05df396e1d71dae6e215fd3673fd722e96e4a8b1358f68c5f3a6",
+  "chinese_sha256": "b598ea25246a1880d6d5b7624d1403c0256d9463f8b7abe679b56f0f8fed640e",
+  "package_sha256": "fc9f3d51d7efab4624de9ca07e8c707b00a8e610f4357c2a3b6f3cdbbcb3c402",
   "main_strings": 1688,
   "missing_keys": [],
   "extra_keys": [],
   "format_field_differences": [],
   "install_and_fresh_process_language_selection_passed": true,
   "full_gui_and_hardware_tested": false,
-  "package_version": "1.0.1",
-  "source_files_match_current_archive": true
+  "package_version": "1.0.2",
+  "source_files_match_current_archive": true,
+  "user_confirmed_navigation_label": true
 }

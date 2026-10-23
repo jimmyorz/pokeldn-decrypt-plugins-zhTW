@@ -1,12 +1,14 @@
 # pokeldn 繁體中文（台灣）語言包
 
-版本：1.0.1 · 語系：`zh-TW` · 外掛 ID：`community-zh-tw`
+版本：1.0.2 · 語系：`zh-TW` · 外掛 ID：`community-zh-tw`
 
 此語言包採用台灣繁體中文軟體用語、寶可夢官方譯名與台灣玩家熟悉的術語。這是社群翻譯，非 pokeldn 或寶可夢官方發布。
 
+本版為本地測試版：左側選單的「寶可夢銀行」縮短為「銀行」，頁面標題維持原文。
+
 ## 安裝
 
-1. 開啟 pokeldn，前往側邊選單底部的 **Plugins**，按 **Add a plugin**，選擇 `pokeldn-zh-TW-1.0.1.pokeplugin`。也可將檔案拖入 **Installed** 分頁。
+1. 開啟 pokeldn，前往側邊選單底部的 **Plugins**，按 **Add a plugin**，選擇 `pokeldn-zh-TW-1.0.2.pokeplugin`。也可將檔案拖入 **Installed** 分頁。
 2. 完成 App 原有的安裝提示。
 3. 前往 **Settings → App language**，選擇 **繁體中文（台灣）語言包**。
 4. 重新啟動 pokeldn。

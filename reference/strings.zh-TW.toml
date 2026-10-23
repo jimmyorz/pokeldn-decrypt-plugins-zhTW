@@ -1028,7 +1028,7 @@
 "main.a_plugin_was_turned_off_ed25fc" = "已停用一個外掛"
 "main.add_keys_later_in_settings_8bc2f9" = "稍後可在「設定」加入金鑰。"
 "main.android_board_step" = "請使用可傳輸資料的 USB 線，將 ESP32-S3、C3 或 C6 接上手機。"
-"main.bank_676c47" = "寶可夢銀行"
+"main.bank_676c47" = "銀行"
 "main.board_4816cb" = "開發板"
 "main.cancel_19766e" = "取消"
 "main.choose_prod_keys_782614" = "選擇 prod.keys"

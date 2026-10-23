@@ -20,5 +20,10 @@
     "help": 533,
     "templates": 31
   },
-  "hardware_or_gui_tested": false
+  "hardware_or_gui_tested": false,
+  "package_version": "1.0.2",
+  "local_test_build": true,
+  "changed_translation_keys": [
+    "main.bank_676c47"
+  ]
 }
