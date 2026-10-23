@@ -4,7 +4,7 @@
 
 ## 下載與安裝
 
-**[下載 pokeldn-zh-TW-1.0.2.pokeplugin](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.2.pokeplugin)**
+**[下載最新 pokeldn-zh-TW-pokeplugin](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.2.pokeplugin)**
 
 1. 開啟 **Plugins → Add a plugin**，選擇下載的 `.pokeplugin`，依畫面提示完成安裝。
 2. 前往 **Settings → App language**，選擇 **繁體中文（台灣）語言包**。
