@@ -1,5 +1,5 @@
-# 繁體中文（台灣）— pokeldn 0.35.0
-# Source: Decryptu/pokeldn @ 7d1258a04c4f777bb446ae2cc47ddfdf45a99dd5
+# 繁體中文（台灣）— pokeldn 0.36.0
+# Source: Decryptu/pokeldn @ 716eb85478b7e752335f1a1f029e710d9a35a335
 # UTF-8; preserve quoted keys and all format fields.
 
 "app.add_yourself_to_the_group_sudo_usermod_ag_user_then_log_b0f6cb" = "將自己加入 {value0} 群組（sudo usermod -aG {value1} $USER），然後登出再重新登入。"
@@ -165,6 +165,8 @@
 "boards.chip_722389" = "晶片"
 "boards.connecting_5f04ae" = "正在連線⋯"
 "boards.connection_639a40" = "連線"
+"boards.copy_board_details_e0d595" = "複製開發板資訊"
+"boards.copying_ad61bf" = "正在複製⋯"
 "boards.cp210x_b37fe7" = "CP210x：{value0}"
 "boards.cp210x_driver_59da78" = "CP210x 驅動程式"
 "boards.download_the_firmware_63b408" = "下載韌體"
@@ -195,6 +197,7 @@
 "boards.it_replaces_the_firmware_the_board_stops_working_as_unt_3007cd" = "這會取代 {value0} 韌體。在重新安裝 {value2} 前，開發板將無法作為{value1}使用。"
 "boards.keep_the_board_plugged_in_about_a_minute_e30db9" = "請保持開發板連接。約需一分鐘。"
 "boards.keep_the_board_plugged_into_this_computer_it_takes_abou_32b6e2" = "請保持開發板與這台電腦連接。約需一分鐘。"
+"boards.kept_gift_243af7" = "已儲存的禮物"
 "boards.living_room_spare_4247ed" = "客廳、備用⋯"
 "boards.look_again_d36fee" = "重新搜尋"
 "boards.name_dcd1d5" = "名稱"
@@ -210,7 +213,9 @@
 "boards.plug_it_into_this_computer_with_a_data_cable_it_shows_u_ca5481" = "請使用可傳輸資料的線材接上這台電腦，開發板就會自動顯示在這裡。"
 "boards.pokeldn_board_cc6998" = "pokeldn 開發板"
 "boards.port_72e9a5" = "連接埠"
+"boards.remove_c3812f" = "移除"
 "boards.save_the_name_4a4b36" = "儲存名稱"
+"boards.sent_on_its_own_from_any_usb_charger_14f369" = "接上 USB 充電器即可自行配信"
 "boards.starting_82b936" = "正在啟動⋯"
 "boards.sudo_usermod_ag_dialout_user_227ed4" = "sudo usermod -aG dialout $USER"
 "boards.the_board_did_not_answer_over_bluetooth_1fc26c" = "開發板未透過藍牙回應（{value0}）。"
@@ -350,6 +355,7 @@
 "catalog.join_the_console_s_union_room_as_a_character_and_trade_e07848" = "以角色身分進入主機的聯盟交誼廳並交換。"
 "catalog.join_the_union_circle_the_console_hosts_and_clear_blueb_a7f910" = "加入主機開放的集友圈，替開房玩家完成藍樂活任務，以解鎖點心大叔的所有傳說的寶可夢，或取得指定 BP。"
 "catalog.join_the_union_circle_the_console_hosts_and_spawn_the_w_88db74" = "加入主機開放的集友圈，在玩家周圍生成自訂的野生寶可夢，供玩家對戰與捕捉。"
+"catalog.keep_it_on_the_board_a36969" = "儲存至開發板"
 "catalog.kitakami_44ab29" = "北上"
 "catalog.leafgreen_578f94" = "葉綠"
 "catalog.leave_empty_for_the_den_s_own_rewards_or_choose_up_to_va_91e2d4" = "留空則使用巢穴原本的獎勵，也可從頭目巢穴的獎勵中選擇最多 {value0} 項。"
@@ -439,6 +445,7 @@
 "catalog.sets_the_rental_pokemon_and_the_pokemon_met_on_the_way_e4b8d2" = "決定租借寶可夢及途中遇到的寶可夢。留空則隨機決定。"
 "catalog.spanish_341105" = "西班牙文"
 "catalog.standard_ef6691" = "一般"
+"catalog.start_saves_the_gift_on_the_board_and_stops_unplugged_a_a436f2" = "按下「開始」後，會將禮物儲存至開發板，然後停止執行。將開發板從電腦拔下，接上任一 USB 充電器供電，即可自行向附近所有《劍／盾》遊戲配信，無須電腦。應用程式再次連線至開發板時，配信便會停止。"
 "catalog.start_the_host_9b26a9" = "啟動開房端。"
 "catalog.start_the_host_and_wait_for_hosting_direct_corner_in_th_02ea3b" = "啟動開房端，等待紀錄出現「Hosting Direct Corner」。"
 "catalog.start_the_host_and_wait_for_the_network_to_come_up_6d8341" = "啟動開房端，等待網路建立完成。"

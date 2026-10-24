@@ -533,3 +533,4 @@
 "za-gift-host:--gift-event" = "依順序指定各筆 --trade-offer 的來源神秘禮物卡片：使用 PKHeX 配信資料庫中的鍵值（pokeldn.pokemon.Service.gift_events）"
 "za-gift-host:--for-receiver" = "交換時，對於初訓家應為領取者的 --gift-event 配信卡片，依主機存檔重新產生：主機先提供寶可夢，由此存檔捕捉的個體辨識訓練家；若無法辨識，則使用主機連線階段資料。兩者皆失敗時，保留原提供內容，使用「設定」中的訓練家（pokeldn.receiver_gift，docs/gift_simulated.md）"
 "za-gift-host:--trade-back" = "每次交換後再次交換，將主機剛送出的寶可夢換回，讓需要通訊進化的寶可夢在主機上進化；玩家需將本程式送出的寶可夢換回（docs/architecture.md，Trade back）"
+"swsh-gift:--save-to-board" = "將禮物儲存至 ESP32 開發板後結束執行；之後每次開發板通電時，都會自行配信，無須電腦"

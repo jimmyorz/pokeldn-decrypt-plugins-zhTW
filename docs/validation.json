@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-24",
+  "source_commit": "716eb85478b7e752335f1a1f029e710d9a35a335",
+  "pokeldn_version": "0.36.0",
+  "package_version": "1.0.4",
+  "locale": "zh-TW",
+  "api": "1.10",
+  "package_sha256": "f51e4ac7d9d2a565781839488408a09fbb874cfc6fda7df8b7c86df9bf4688e5",
+  "coverage": {
+    "missing strings": 0,
+    "unknown strings": 0,
+    "placeholders differ": 0,
+    "missing help": 1634,
+    "unknown help": 0
+  },
+  "placeholder_name_spec_conversion_differences": 0,
+  "runtime_string_format_checks": 1695,
+  "existing_message_samples": 8,
+  "new_app_log_samples": 6,
+  "pkhex_name_fixture_entries": 2279,
+  "live_pkhex_service_tested": false,
+  "resources": {
+    "messages": 1643,
+    "terms": 109,
+    "help": 534,
+    "templates": 35
+  },
+  "package_files": 8,
+  "source_files_match_current_archive": true,
+  "validation_report_in_archive": false,
+  "install_and_fresh_process_language_selection_passed": true,
+  "hardware_or_gui_tested": false,
+  "compatibility": {
+    "pokeldn_0.36.0": "accepted",
+    "pokeldn_0.35.0": "rejected_requires_api_1.10"
+  }
+}
