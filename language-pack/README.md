@@ -6,11 +6,11 @@
 
 | 資源 | 數量與用途 |
 | --- | --- |
-| `strings.toml` | 1,695 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
-| `messages.toml` | 1,643 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明與常見錯誤；部分與主字串表重疊 |
-| `help.toml` | 534 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
-| `terms.toml` | 109 個遊戲名稱、地區及社群術語 |
-| `templates.toml` | 35 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
+| `strings.toml` | 1,705 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
+| `messages.toml` | 1,648 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明與常見錯誤；部分與主字串表重疊 |
+| `help.toml` | 536 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
+| `terms.toml` | 110 個遊戲名稱、地區及社群術語 |
+| `templates.toml` | 43 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
 
 英文範本中的 33 個介面鍵值刻意原樣保留，包括遊戲縮寫、HP、BP、GTS、GitHub、Discord、純變數排列、指令與可匯入的 Showdown 配置範例。這些並非漏譯。
 
@@ -22,6 +22,7 @@
 | --- | --- |
 | Pokémon | 寶可夢 |
 | Shiny | 異色；社群也常稱「色違」 |
+| Alpha | 頭目 |
 | IV / EV / AV | 個體值／努力值／覺醒值，相關欄位保留縮寫 |
 | Ability / Hidden Ability | 特性／隱藏特性 |
 | Move / Nature | 招式／性格 |
@@ -38,16 +39,17 @@
 
 ## 目前仍會出現英文的範圍
 
-- 專案共列出 2,168 個工具選項說明。本包翻譯其中 534 個；其餘 1,634 個主要是底層通訊、逆向分析與硬體診斷選項，仍使用英文原文。
+- 專案共列出 2,170 個工具選項說明。本包翻譯其中 536 個；其餘 1,634 個主要是底層通訊、逆向分析與硬體診斷選項，仍使用英文原文。
 - 沒有附上整套使用文件與指南的譯本，相關頁面會使用原始英文文件。
 - 檔名、原始銀行與佇列摘要、GTS 資料、設定儲存值、連線紀錄、無線通訊輸出及 `[done]` 訊息，依程式設計保留其原始資料；本包只翻譯程式開放的顯示位置。
+- 「讀取我的資料」的結果與紀錄由上游直接插入英文遊戲名稱，日期也使用固定格式；這些部分未經語言包替換，仍可能顯示英文。
 - 尚未列入對照表的模組訊息及第三方外掛文字，會按程式規則使用英文或只替換已知術語。
 - 上游的 `bank.file_unreadable_0fd8f4` 與 `gts.asks_for_open_until_offer_answered_7137e1` 會直接把英文複數字尾 `s` 傳入格式變數。本包完整保留變數及其格式，因此這兩處在複數情況下仍可能多顯示一個 `s`；純資料語言包無法移除此由程式直接傳入的字尾。
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn`，commit `716eb85478b7e752335f1a1f029e710d9a35a335`](https://github.com/Decryptu/pokeldn/tree/716eb85478b7e752335f1a1f029e710d9a35a335)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/716eb85478b7e752335f1a1f029e710d9a35a335/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn`，commit `a3e6f5be826d00ca8f9202a8c73ceb77d20f8ee0`](https://github.com/Decryptu/pokeldn/tree/a3e6f5be826d00ca8f9202a8c73ceb77d20f8ee0)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/a3e6f5be826d00ca8f9202a8c73ceb77d20f8ee0/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 
