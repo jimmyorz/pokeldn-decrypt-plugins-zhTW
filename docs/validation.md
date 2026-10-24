@@ -35,4 +35,4 @@
 - 未經翻譯流程的底層輸出、開發板診斷報告與原始錯誤內容仍保留英文。
 - 本次未在完整圖形介面或真實 Switch／開發板上實測，也未驗證所有遊戲情境。
 
-結構化結果見 [`validation.json`](validation.json)，後續更新方式見 [maintenance.md](maintenance.md)。驗證報告供維護使用，並非語言包載入所需檔案，不隨 `.pokeplugin` 發布。
+後續更新方式見 [maintenance.md](maintenance.md)。驗證報告供維護使用，並非語言包載入所需檔案，不隨 `.pokeplugin` 發布。

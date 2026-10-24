@@ -11,6 +11,5 @@
   "chinese_sha256": "bf5f170e519bc8fbeef3a678b8dda2f83321cd4ca3c426686ce4206f8758256c",
   "package_version": "1.0.4",
   "package_sha256": "f51e4ac7d9d2a565781839488408a09fbb874cfc6fda7df8b7c86df9bf4688e5",
-  "main_strings": 1695,
-  "validation_report": "docs/validation.json"
+  "main_strings": 1695
 }

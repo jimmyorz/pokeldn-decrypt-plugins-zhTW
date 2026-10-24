@@ -6,7 +6,7 @@
 
 `language-pack/` 保存可重新打包的完整來源。`reference/strings.zh-TW.toml` 是主字串的備用對照；修改 `language-pack/strings.toml` 時也應同步更新此副本，以免兩份內容分歧。
 
-`docs/validation.json` 保存目前語言包的檢查結果，`docs/validation.md` 說明檢查範圍與限制。這兩份文件供維護使用，pokeldn 不會讀取，也不應放入 `language-pack/` 或封裝進 `.pokeplugin`。報告只記錄實際執行的檢查，不保留臨時測試包標記，也不沿用舊版本的檢查結果。
+`docs/validation.md` 記錄目前語言包的檢查結果、檢查範圍與限制。此文件供維護使用，pokeldn 不會讀取，也不應放入 `language-pack/` 或封裝進 `.pokeplugin`。報告只記錄實際執行的檢查，不保留臨時測試包標記，也不沿用舊版本的檢查結果。
 
 | 檔案 | 對照方式 |
 | --- | --- |
@@ -30,7 +30,7 @@
    此工具只在格式變數不符時回傳失敗；仍須檢查列出的缺漏、多餘鍵值及未翻譯說明，並保留變數的格式規格與轉換方式。
 5. 同步中英文參照及文件：根目錄 README 的翻譯對應版本、更新日期、語言包版本、Plugins API、最低版本與下載連結；`language-pack/README.md` 的涵蓋數量與來源連結；`CHANGELOG.md` 的中文更新內容。README 不放本地測試過程或臨時測試包資訊。下載標籤維持「下載最新 pokeldn 繁體中文（台灣）語言包」，只更新連結中的版本。
 6. 產出新版時，提高 `plugin.toml` 的版本，使用對應上游的 `scripts/pack_plugin.py` 打包至 `packages/`。確認包內內容與 `language-pack/` 逐一相同且沒有驗證報告，再同步 `pokeldn-source.json` 的版本、Plugins API、下載 URL、檔案大小與 SHA-256。
-7. 在隔離資料目錄驗證安裝、選取語言及新程序載入；能操作圖形介面與硬體時再抽查實際畫面及功能。將實際檢查結果寫入 `docs/validation.json` 與 `docs/validation.md`，未執行的項目須明確記錄，不能沿用舊版的通過狀態。
+7. 在隔離資料目錄驗證安裝、選取語言及新程序載入；能操作圖形介面與硬體時再抽查實際畫面及功能。將實際檢查結果寫入 `docs/validation.md`，未執行的項目須明確記錄，不能沿用舊版的通過狀態。
 8. 最後更新 `reference/upstream.json` 的上游版本、commit、Plugins API、檢查日期、英文 Git blob SHA 與 SHA-256，並從本次檔案重新計算 `chinese_sha256`、`package_sha256`、`package_version` 及字串數量。確認它們與中文對照、封裝檔、來源清單及驗證報告一致。這些資料不會因重新打包而自動更新；即使經使用者同意覆寫相同版本，也必須同步更新。
 
 ## 版本保存方式
