@@ -11,8 +11,8 @@
       "description": "台灣繁體中文語言包，採用寶可夢官方譯名與台灣社群慣用語。",
       "author": "jimmyorz",
       "download": "https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.5.pokeplugin",
-      "sha256": "74683d1421b78038b1ba18c5c5c23971df900e93eb9b7208cbbf20c386ab21d9",
-      "size": 130391,
+      "sha256": "9e505dc70688e4b12447a127b888446cf5a473b18b1111fe32a3473795e0d564",
+      "size": 148717,
       "homepage": "https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW"
     }
   ]
