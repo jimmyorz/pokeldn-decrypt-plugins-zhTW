@@ -55,7 +55,6 @@
 - 原始碼基準：[`Decryptu/pokeldn`，commit `b688b7a885c7612a9817a2f87919a3223940ae76`](https://github.com/Decryptu/pokeldn/tree/b688b7a885c7612a9817a2f87919a3223940ae76)。
 - 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/b688b7a885c7612a9817a2f87919a3223940ae76/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
-- 基準包含 pokeldn 0.41.0 與其發布後 main 新增的《劍／盾》LAN 模式翻譯；該功能尚未包含於 0.41.0 正式版。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 
 `.pokeplugin` 本身是 ZIP 格式，內含可編輯的 TOML 原始檔與 `LICENSE`。本說明保留於儲存庫，不放入封裝；`plugin.toml` 的 `exclude = ["README.md"]` 會在使用上游封裝工具時排除此檔案。若要自行調整，可將副本改為 `.zip` 後解壓縮，修改文字，再使用上游的 `scripts/pack_plugin.py` 重新打包。

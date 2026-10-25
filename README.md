@@ -36,8 +36,6 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 
 本版需使用 pokeldn **0.39.0 或以上**（支援 Plugins API 1.11）。
 
-另包含上游 [`b688b7a`](https://github.com/Decryptu/pokeldn/commit/b688b7a885c7612a9817a2f87919a3223940ae76) 的《劍／盾》LAN 模式翻譯；該功能尚未包含於 0.41.0 正式版。
-
 此語言包以表列的 pokeldn 版本與 Plugins API 為製作及檢查基準，屬於社群翻譯，非 pokeldn 或寶可夢官方發布。
 
 ## 檔案配置

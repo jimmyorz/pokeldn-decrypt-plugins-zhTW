@@ -8,6 +8,8 @@
 
 `docs/validation.md` 記錄目前語言包的檢查結果、檢查範圍與限制。此文件供維護使用，pokeldn 不會讀取，也不應放入 `language-pack/` 或封裝進 `.pokeplugin`。報告只記錄實際執行的檢查，不保留臨時測試包標記，也不沿用舊版本的檢查結果。
 
+正式發行版與翻譯基準 commit 的差異（例如已翻譯但尚未正式發布的功能）集中記錄在 `docs/validation.md`，兩份 README 不重複這類暫時性說明。下次同步上游時，先確認這些功能是否已納入正式版，再更新該紀錄；`reference/upstream.json` 仍記錄實際採用的基準 commit。
+
 | 檔案 | 對照方式 |
 | --- | --- |
 | `strings.toml` | 依上游英文表的完整鍵值配對 |
