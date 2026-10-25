@@ -6,7 +6,7 @@
 
 ## 下載與安裝
 
-**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.6.pokeplugin)**
+**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.7.pokeplugin)**
 
 1. 開啟 **Plugins → Add a plugin**，選擇下載的 `.pokeplugin`，依畫面提示完成安裝。
 2. **完整退出 pokeldn，再重新開啟**，讓語言包出現在語言選單中。
@@ -27,8 +27,8 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 
 | 項目 | 內容 |
 | --- | --- |
-| 目前翻譯對應版本 | pokeldn **0.41.0** |
-| 語言包版本 | `1.0.6` |
+| 目前翻譯對應版本 | pokeldn **0.43.0** |
+| 語言包版本 | `1.0.7` |
 | 語系 | `zh-TW` |
 | Plugins ID | `community-zh-tw` |
 | Plugins API | `1.11` |
