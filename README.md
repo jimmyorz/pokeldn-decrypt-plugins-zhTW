@@ -29,8 +29,8 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 | --- | --- |
 | 目前翻譯對應版本 | pokeldn **0.41.0** |
 | 語言包版本 | `1.0.6` |
-| Plugins ID | `community-zh-tw` |
 | 語系 | `zh-TW` |
+| Plugins ID | `community-zh-tw` |
 | Plugins API | `1.11` |
 | 更新日期 | **2026-10-25** |
 
