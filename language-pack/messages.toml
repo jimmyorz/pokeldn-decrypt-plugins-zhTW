@@ -1498,7 +1498,7 @@
 "named Wi-Fi adapter profile used while --phy is auto" = "--phy 設為 auto 時使用的具名 Wi-Fi 網卡設定檔"
 "record an optional JSONL protocol diagnostic" = "選擇性記錄 JSONL 格式的通訊協定診斷資料"
 "save the received mon here (trades=1); for trades>1 this is a base/prefix and each received mon is saved as <stem>_trade<k>_<species>.pk3" = "將收到的寶可夢儲存於此（trades=1）；trades>1 時，此路徑會作為基底或前綴，各檔案命名為 <stem>_trade<k>_<species>.pk3"
-"LDN passphrase as hex (live); default = the built-in 64-byte emulator passphrase (shared by frlg/rse)" = "十六進位 LDN 通關密語（即時連線）；預設使用內建的 64 位元組模擬器通關密語，frlg／rse 共用"
+"LDN passphrase as hex (live); default = the built-in 64-byte emulator passphrase (shared by frlg/rse)" = "十六進位 LDN 通關密語（即時連線）；預設使用內建的 64 位元組模擬器通關密語（火紅葉綠／紅藍綠寶石共用）"
 "wifi phy for the LDN join (live)" = "加入 LDN 網路使用的 Wi-Fi phy（即時連線）"
 "Switch prod.keys (live); default: keys_path from config/host*.toml" = "Switch 的 prod.keys（即時連線）；預設取自 config/host*.toml 的 keys_path"
 "(live) record every Pia datagram both directions to a .jsonl (incl. the SSID), so a live attempt can be decrypted/analysed offline" = "即時連線時，將雙向每個 Pia 資料包記錄為 .jsonl（含 SSID），供離線解密與分析"

@@ -6,7 +6,7 @@
 
 ## 下載與安裝
 
-**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.5.pokeplugin)**
+**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.6.pokeplugin)**
 
 1. 開啟 **Plugins → Add a plugin**，選擇下載的 `.pokeplugin`，依畫面提示完成安裝。
 2. **完整退出 pokeldn，再重新開啟**，讓語言包出現在語言選單中。
@@ -27,14 +27,16 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 
 | 項目 | 內容 |
 | --- | --- |
-| 目前翻譯對應版本 | pokeldn **0.39.1** |
-| 語言包版本 | `1.0.5` |
+| 目前翻譯對應版本 | pokeldn **0.41.0** |
+| 語言包版本 | `1.0.6` |
 | Plugins ID | `community-zh-tw` |
 | 語系 | `zh-TW` |
 | Plugins API | `1.11` |
 | 更新日期 | **2026-10-25** |
 
 本版需使用 pokeldn **0.39.0 或以上**（支援 Plugins API 1.11）。
+
+另包含上游 [`b688b7a`](https://github.com/Decryptu/pokeldn/commit/b688b7a885c7612a9817a2f87919a3223940ae76) 的《劍／盾》LAN 模式翻譯；該功能尚未包含於 0.41.0 正式版。
 
 此語言包以表列的 pokeldn 版本與 Plugins API 為製作及檢查基準，屬於社群翻譯，非 pokeldn 或寶可夢官方發布。
 
