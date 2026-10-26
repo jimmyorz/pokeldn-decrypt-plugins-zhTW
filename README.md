@@ -31,8 +31,8 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/refs/hea
 | 語言包版本 | `1.0.9` |
 | 語系 | `zh-TW` |
 | Plugins ID | `community-zh-tw` |
-| Plugins 簽章指紋 | `ZP2X-THRM-26HS-XL2C` |
 | Plugins API | `1.12` |
+| Plugins 簽章指紋 | `ZP2X-THRM-26HS-XL2C` |
 | 更新日期 | **2026-10-27** |
 
 本版需使用 pokeldn **0.44.0 或以上**（支援 Plugins API 1.12）。
