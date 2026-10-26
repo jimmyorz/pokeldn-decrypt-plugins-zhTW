@@ -6,13 +6,13 @@
     {
       "id": "community-zh-tw",
       "name": "繁體中文（台灣）語言包",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "api": "1.12",
       "description": "台灣繁體中文語言包，採用寶可夢官方譯名與台灣社群慣用語。",
       "author": "jimmyorz",
-      "download": "https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.8.pokeplugin",
-      "sha256": "95dc020b27c8ee4fe3075f0ae23f9566261bb37ba3711685c4aa957102b2321d",
-      "size": 130381,
+      "download": "https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.0.9.pokeplugin",
+      "sha256": "67eb3fffd3a9fd3250746ab4d807ed622b9b48b0b78fa6f93d36ba477fadbba3",
+      "size": 130808,
       "homepage": "https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW"
     }
   ]
