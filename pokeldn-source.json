@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "pokeldn 繁體中文（台灣） / Traditional Chinese (Taiwan)",
-  "homepage": "https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW",
+  "homepage": "https://github.com/jimmyorz/pokeldn-plugins-zhTW",
   "plugins": [
     {
       "id": "community-zh-tw",
@@ -10,10 +10,10 @@
       "api": "1.12",
       "description": "台灣繁體中文語言包，採用寶可夢官方譯名與台灣社群慣用語。",
       "author": "jimmyorz",
-      "download": "https://raw.githubusercontent.com/jimmyorz/pokeldn-decrypt-plugins-zhTW/main/packages/pokeldn-zh-TW-1.1.0.pokeplugin",
+      "download": "https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/main/packages/pokeldn-zh-TW-1.1.0.pokeplugin",
       "sha256": "952b883477253b4933412ed42754f833586ce98c0e9b25c7a474ceb6b17b42e2",
       "size": 131056,
-      "homepage": "https://github.com/jimmyorz/pokeldn-decrypt-plugins-zhTW"
+      "homepage": "https://github.com/jimmyorz/pokeldn-plugins-zhTW"
     }
   ]
 }
