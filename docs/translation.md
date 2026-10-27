@@ -54,14 +54,14 @@
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn`，commit `d39467c9159042b5e96f22a9054f607ecef3d6b6`](https://github.com/Decryptu/pokeldn/tree/d39467c9159042b5e96f22a9054f607ecef3d6b6)。
+- 原始碼基準：[`Decryptu/pokeldn commit d39467c9159042b5e96f22a9054f607ecef3d6b6`](https://github.com/Decryptu/pokeldn/tree/d39467c9159042b5e96f22a9054f607ecef3d6b6)。
 - 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/d39467c9159042b5e96f22a9054f607ecef3d6b6/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。
 
-`.pokeplugin` 本身是 ZIP 格式，內含可編輯的 TOML 原始檔與 `LICENSE`。本說明保留於儲存庫，不放入封裝；`plugin.toml` 的 `exclude = ["README.md"]` 會在使用上游封裝工具時排除此檔案。若要自行調整，可將副本改為 `.zip` 後解壓縮，修改文字，再使用上游的 `scripts/pack_plugin.py` 重新打包。
+`.pokeplugin` 本身是 ZIP 格式，內含可編輯的 TOML 原始檔、`LICENSE` 與 `plugin.sig`。若要自行調整，可將副本改為 `.zip` 後解壓縮，修改文字，再依[維護說明](maintenance.md)重新封裝與簽章。
 
 請保留鍵值、變數名稱、轉換方式與格式規格；目前唯一有意調整格式規格的項目為 `gts.open_until_offer_answered_3c9d1f`，以 `{value2:.0}` 保留英文複數字尾參數但不顯示內容。
 
-本包僅包含文字資料與授權文件，不包含 Python 程式碼。衍生翻譯內容依 AGPL-3.0-or-later 授權提供；完整授權見 `LICENSE`。
+本包僅包含文字資料與授權文件，不包含 Python 程式碼。衍生翻譯內容依 AGPL-3.0-or-later 授權提供；完整授權見 [LICENSE](../LICENSE)。

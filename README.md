@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/refs/heads/main/
 | --- | --- |
 | [`packages/`](packages/) | 可安裝的 `.pokeplugin` 檔 |
 | [`language-pack/`](language-pack/) | 主字串及所有補充翻譯的 TOML 原始檔 |
-| [`language-pack/README.md`](language-pack/README.md) | 翻譯涵蓋範圍、用語原則與已知限制 |
+| [`docs/translation.md`](docs/translation.md) | 翻譯涵蓋範圍、用語原則與已知限制 |
 | [`reference/strings.en.toml`](reference/strings.en.toml) | 製作時的上游英文基準 |
 | [`reference/strings.zh-TW.toml`](reference/strings.zh-TW.toml) | 同一基準的完整中文對照，內容與 `language-pack/strings.toml` 相同 |
 | [`reference/upstream.json`](reference/upstream.json) | 上游版本與檔案比對資料 |

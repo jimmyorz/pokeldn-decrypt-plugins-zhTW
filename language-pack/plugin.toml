@@ -11,4 +11,3 @@ templates = "templates.toml"
 terms = "terms.toml"
 help = "help.toml"
 font_family = "Noto Sans CJK TC"
-exclude = ["README.md"]

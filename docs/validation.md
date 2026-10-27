@@ -1,5 +1,7 @@
 # 驗證紀錄與來源
 
+> 以下為 1.1.0 發布時的驗證紀錄。發布後已將 `language-pack/README.md` 移至 `docs/translation.md`，並移除來源 `plugin.toml` 的 `exclude = ["README.md"]`；已發布的 1.1.0 套件未重新封裝，仍保留該設定。此來源整理將於下次封裝納入。
+
 ## 翻譯基準
 
 - 上游專案：[`Decryptu/pokeldn`](https://github.com/Decryptu/pokeldn)。

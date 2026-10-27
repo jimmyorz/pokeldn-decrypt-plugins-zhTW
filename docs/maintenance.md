@@ -8,7 +8,7 @@
 
 `docs/validation.md` 記錄目前語言包的檢查結果、檢查範圍與限制。此文件供維護使用，pokeldn 不會讀取，也不應放入 `language-pack/` 或封裝進 `.pokeplugin`。報告只記錄實際執行的檢查，不保留臨時測試包標記，也不沿用舊版本的檢查結果。
 
-正式發行版與翻譯基準 commit 的差異（例如已翻譯但尚未正式發布的功能）集中記錄在 `docs/validation.md`，兩份 README 不重複這類暫時性說明。下次同步上游時，先確認這些功能是否已納入正式版，再更新該紀錄；`reference/upstream.json` 仍記錄實際採用的基準 commit。
+正式發行版與翻譯基準 commit 的差異（例如已翻譯但尚未正式發布的功能）集中記錄在 `docs/validation.md`，根目錄 README 與 `docs/translation.md` 不重複這類暫時性說明。下次同步上游時，先確認這些功能是否已納入正式版，再更新該紀錄；`reference/upstream.json` 仍記錄實際採用的基準 commit。
 
 | 檔案 | 對照方式 |
 | --- | --- |
@@ -27,16 +27,16 @@
 5. 在已安裝依賴的上游原始碼目錄執行下列檢查，將路徑換成此儲存庫的實際位置。
 
    ```sh
-   POKELDN_PREVIEW=1 python scripts/check_language_pack.py /path/to/pokeldn-decrypt-plugins-zhTW/language-pack
+   POKELDN_PREVIEW=1 python scripts/check_language_pack.py /path/to/pokeldn-plugins-zhTW/language-pack
    ```
    此工具只在格式變數不符時回傳失敗；仍須檢查列出的缺漏、多餘鍵值及未翻譯說明，並保留變數的格式規格與轉換方式。
-6. 同步中英文參照及文件：根目錄 README 的翻譯對應版本、更新日期、語言包版本、Plugins API、最低版本與下載連結；`language-pack/README.md` 的涵蓋數量與來源連結；`CHANGELOG.md` 的中文更新內容。README 不放本地測試過程或臨時測試包資訊。下載標籤維持「下載最新 pokeldn 繁體中文（台灣）語言包」，只更新連結中的版本。
-7. 產出新版時，提高 `plugin.toml` 的版本，使用對應上游的 `scripts/pack_plugin.py` 搭配既有 Ed25519 私鑰（`--key`）打包至 `packages/`。打包前須確認私鑰檔案存在，不得自動產生新金鑰、改用其它金鑰或改為未簽章封裝；簽章指紋須與既有紀錄一致。保留 `plugin.toml` 的 `exclude = ["README.md"]`；確認包內只有 `plugin.toml`、五個翻譯 TOML、`LICENSE` 與 `plugin.sig`，共 8 個檔案。七個來源檔案須逐一比對，簽章必須驗證通過，且不得包含 README.md、驗證報告或私鑰。最後同步 `pokeldn-source.json` 的版本、Plugins API、下載 URL、檔案大小與 SHA-256。
-8. 每次發布均在隔離資料目錄驗證語言包安裝、選取語言及新程序載入，並確認封裝簽章有效、公開簽章指紋與既有紀錄一致，再針對本次新增或變更的翻譯與功能進行必要抽查。完整 GUI、實際硬體及外部服務測試依本次變更的影響範圍與可操作條件決定；未執行的項目須明確記錄，不得沿用舊版本的通過狀態。將實際檢查結果及限制記錄於 `docs/validation.md`，不寫入 README。
+6. 同步中英文參照及文件：根目錄 README 的翻譯對應版本、更新日期、語言包版本、Plugins API、最低版本與下載連結；`docs/translation.md` 的涵蓋數量與來源連結；`CHANGELOG.md` 的中文更新內容。根目錄 README 與 `docs/translation.md` 不放本地測試過程或臨時測試包資訊。下載標籤維持「下載最新 pokeldn 繁體中文（台灣）語言包」，只更新連結中的版本。
+7. 產出新版時，提高 `plugin.toml` 的版本，使用對應上游的 `scripts/pack_plugin.py` 搭配既有 Ed25519 私鑰（`--key`）打包至 `packages/`。打包前須確認私鑰檔案存在，不得自動產生新金鑰、改用其它金鑰或改為未簽章封裝；簽章指紋須與既有紀錄一致。確認包內只有 `plugin.toml`、五個翻譯 TOML、`LICENSE` 與 `plugin.sig`，共 8 個檔案。七個來源檔案須逐一比對，簽章必須驗證通過，且不得包含說明文件、驗證報告或私鑰。最後同步 `pokeldn-source.json` 的版本、Plugins API、下載 URL、檔案大小與 SHA-256。
+8. 每次發布均在隔離資料目錄驗證語言包安裝、選取語言及新程序載入，並確認封裝簽章有效、公開簽章指紋與既有紀錄一致，再針對本次新增或變更的翻譯與功能進行必要抽查。完整 GUI、實際硬體及外部服務測試依本次變更的影響範圍與可操作條件決定；未執行的項目須明確記錄，不得沿用舊版本的通過狀態。將實際檢查結果及限制記錄於 `docs/validation.md`，不寫入根目錄 README 或 `docs/translation.md`。
 9. 最後更新 `reference/upstream.json` 的上游版本、commit、Plugins API、檢查日期、英文 Git blob SHA 與 SHA-256，並從本次檔案重新計算 `chinese_sha256`、`package_sha256`、`package_version` 及字串數量。確認它們與中文對照、封裝檔、來源清單及驗證報告一致。這些資料不會因重新打包而自動更新；即使經使用者同意覆寫相同版本，也必須同步更新。
 
 ## 版本保存方式
 
-既有 `packages/` 封裝檔保留原始位元組；未簽章的舊版維持 7 個檔案，啟用簽章後的新版則包含 8 個檔案，其中 `plugin.sig` 為簽章檔案。每次封裝時，須確認其餘七個檔案均與 `language-pack/` 的對應來源相同，並驗證簽章有效；後續修改來源不會自動更新已發布的封裝檔。README.md 保留在儲存庫，透過 `plugin.toml` 的 `exclude` 排除；驗證報告也不放入封裝。後續修改請使用新版本號，只有使用者明確要求時才覆寫既有版本。
+既有 `packages/` 封裝檔保留原始位元組；未簽章的舊版維持 7 個檔案，啟用簽章後的新版則包含 8 個檔案，其中 `plugin.sig` 為簽章檔案。每次封裝時，須確認其餘七個檔案均與 `language-pack/` 的對應來源相同，並驗證簽章有效；後續修改來源不會自動更新已發布的封裝檔。後續修改請使用新版本號，只有使用者明確要求時才覆寫既有版本。
 
 原分支的簽章指紋及發佈腳本不沿用。本語言包使用獨立的 Ed25519 私鑰簽章，公開簽章指紋為 `ZP2X-THRM-26HS-XL2C`。私鑰由維護者自行妥善備份，不得提交至儲存庫、加入封裝檔或公開發布；若打包環境無法取得既有私鑰，須先要求提供，不得重新產生或更換金鑰。本儲存庫直接保存可下載的套件並提供 `pokeldn-source.json`，不需要沿用原本的版本發佈流程。
