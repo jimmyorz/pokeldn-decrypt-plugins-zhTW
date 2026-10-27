@@ -1,27 +1,49 @@
 # pokeldn 繁體中文（台灣）語言包
 
-為 [pokeldn](https://github.com/Decryptu/pokeldn) 提供符合台灣用語與寶可夢中文社群習慣的繁體中文介面。本儲存庫專門維護語言包、翻譯來源及更新參照。
+[pokeldn](https://github.com/Decryptu/pokeldn) 是一款開源工具，可透過 ESP32 開發板與 Nintendo Switch/Switch 2 上的寶可夢遊戲進行本地無線通訊，支援寶可夢交換、團體戰等功能。
+
+本儲存庫為 pokeldn 提供符合台灣用語與寶可夢中文社群習慣的繁體中文介面，專門維護語言包、翻譯來源及更新參照。
 
 如果發現翻譯錯誤、用語不自然，或有更合適的譯法，歡迎提出 [Issue](https://github.com/jimmyorz/pokeldn-plugins-zhTW/issues) 或 [PR](https://github.com/jimmyorz/pokeldn-plugins-zhTW/pulls)，協助改進翻譯。回報時請盡量附上相關畫面或原文字串，方便確認與調整。
 
 ## 下載與安裝
 
-**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/main/packages/pokeldn-zh-TW-1.1.0.pokeplugin)**
+可加入 Sources，在 pokeldn 內取得後續更新，也可選擇手動安裝。
 
-1. 開啟 **Plugins → Add a plugin**，選擇下載的 `.pokeplugin`，依畫面提示完成安裝。
-2. **完整退出 pokeldn，再重新開啟**，讓語言包出現在語言選單中。
-3. 前往 **Settings → App language**，選擇 **繁體中文（台灣）**。
-4. **再次完整退出 pokeldn，再重新開啟**，套用介面語言。
+### 透過 Sources 安裝（推薦）
 
-> **安裝或啟用外掛不會自動切換語言。** 如果介面仍是英文，請確認已完成第 2～4 步。「App language」控制介面語言，與訓練家／寶可夢的語言設定不同。
+加入來源後，可直接在 pokeldn 內安裝與更新語言包，不必每次回到本頁下載檔案。
 
-也可在 **Plugins → Sources** 加入 [pokeldn-plugins-zhTW](https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/refs/heads/main/pokeldn-source.json)，再到 **Browse** 安裝本語言包，安裝後同樣需要依照第 2～4 步，先重新啟動、選取介面語言，再重新啟動一次。本包已加入數位簽章，簽章指紋見下方版本資訊。
-
-可按下方程式碼區塊右上角的複製按鈕，複製來源網址：
+來源網址（可按程式碼區塊右上角的複製按鈕）：
 
 ```text
 https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/refs/heads/main/pokeldn-source.json
 ```
+
+1. 開啟 **Plugins → Sources**，加入上述來源網址。
+2. 前往 **Browse**，找到 **繁體中文（台灣）語言包**，按下 **Install**，依畫面提示完成安裝。
+
+開啟 **Settings → Updates** 後，pokeldn 會在啟動時**自動檢查更新**；有新版時，在 **Plugins** 頁面按下更新按鈕並確認安裝即可。已手動安裝的使用者也可加入來源，取得後續更新，無須重新安裝。
+
+### 手動安裝
+
+無須設定來源，直接下載套件即可安裝；後續更新可自行下載新版套件再安裝。
+
+**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/main/packages/pokeldn-zh-TW-1.1.0.pokeplugin)**
+
+下載後，開啟 **Plugins → Add a plugin**，選擇下載的 `.pokeplugin`，依畫面提示完成安裝。
+
+### 安裝後切換語言
+
+兩種安裝方式完成後，都需要執行以下步驟：
+
+1. **完整退出 pokeldn，再重新開啟**，讓語言包出現在語言選單中。
+2. 前往 **Settings → App language**，選擇 **繁體中文（台灣）**。
+3. **再次完整退出 pokeldn，再重新開啟**，套用介面語言。
+
+> **安裝或啟用外掛不會自動切換語言。** 如果介面仍是英文，請確認已完成上述步驟。「App language」控制介面語言，與訓練家／寶可夢的語言設定不同。
+
+本包已加入數位簽章，簽章指紋見下方版本資訊。
 
 ## 版本資訊
 
