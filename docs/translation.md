@@ -6,7 +6,7 @@
 
 | 資源 | 數量與用途 |
 | --- | --- |
-| `strings.toml` | 1,795 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
+| `strings.toml` | 1,806 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
 | `messages.toml` | 1,667 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
 | `help.toml` | 615 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
 | `terms.toml` | 110 個遊戲名稱、地區及社群術語 |
@@ -50,13 +50,14 @@
 - 上游的 `bank.file_unreadable_0fd8f4` 仍直接把英文複數字尾 `s` 傳入格式變數，複數情況下可能多顯示一個 `s`。GTS 開放狀態字串已保留變數並抑制此字尾。
 - GTS 的部分交換條件、拒絕原因，以及重複提出交換時的錯誤訊息，直接顯示原始英文，未經語言包替換；單純新增對照無法生效。
 - 銀行批次刪除提示中的名稱取自原始摘要，可能仍為英文；「名稱」排序也依原始名稱排列。
+- 銀行批次加入交換佇列時，結果訊息中的寶可夢名稱與個別失敗原因直接使用原始摘要及錯誤內容，可能仍為英文；本包翻譯外層的加入數量提示。
 - 銀行能力表的 HP、Atk、Def、SpA、SpD、Spe，以及 PKSM 銀行檔的匯入摘要與部分錯誤，未經語言包替換。Showdown 匯出配置依上游設計保留英文。
 - 隨機交換紀錄可翻譯標題，但寶可夢摘要仍取自原始資料，可能保留英文。
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn commit 2f0dcfdb919719a3bdd04e2d218b3b5f1ccc1c01`](https://github.com/Decryptu/pokeldn/tree/2f0dcfdb919719a3bdd04e2d218b3b5f1ccc1c01)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/2f0dcfdb919719a3bdd04e2d218b3b5f1ccc1c01/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn commit 0afe6f61f25464767e55b909eef6b260a372bb34`](https://github.com/Decryptu/pokeldn/tree/0afe6f61f25464767e55b909eef6b260a372bb34)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/0afe6f61f25464767e55b909eef6b260a372bb34/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。
