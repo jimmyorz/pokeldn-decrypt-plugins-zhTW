@@ -613,3 +613,13 @@
 "swsh-lan-raid-join:--lan-quiet" = "--lan：連續未收到主機資料多少秒後，判定主機已離開"
 "swsh-lan:--lan-max-players" = "--lan：搜尋連線時指定的最大玩家人數；團體戰或極巨大冒險預設為 4，交換預設為 2"
 "swsh-raid-join:--lan-max-players" = "--lan：搜尋連線時指定的最大玩家人數；團體戰或極巨大冒險預設為 4，交換預設為 2"
+
+# pokeldn 0.46.0 新增與調整的選項說明
+"frlg-gift:--rom-fill-base" = "搭配 --buffer-script rom-reset-probe：測試樣式的 word[0]（預設為 'EMER'）"
+"frlg-gift:--rom-fold-n" = "搭配 --buffer-script rom-reset-probe：指定要寫入的 ROM 副本區塊，每塊 4 KB，範圍為 0..0xFFF；位址為 0x08000000 + N * 0x1000。執行後會寫入測試樣式並進行軟重置；須加上 --write-unsafe"
+"frlg-trade-host:--save-rounds" = "交換完成後，再次交換隊伍資料前的待命回合數；預設為 6（Switch《火紅》的回合數），使用 --version emerald 時為 5（docs/rse_link.md，Trade）"
+"frlg-trade-online:--save-rounds" = "交換完成後，再次交換隊伍資料前的待命回合數；預設為 6（Switch《火紅》的回合數），使用 --version emerald 時為 5（docs/rse_link.md，Trade）"
+"rse-gift:--rom-fill-base" = "搭配 --buffer-script rom-reset-probe：測試樣式的 word[0]（預設為 'EMER'）"
+"rse-gift:--rom-fold-n" = "搭配 --buffer-script rom-reset-probe：指定要寫入的 ROM 副本區塊，每塊 4 KB，範圍為 0..0xFFF；位址為 0x08000000 + N * 0x1000。執行後會寫入測試樣式並進行軟重置；須加上 --write-unsafe"
+"rse-trade-host:--save-rounds" = "交換完成後，再次交換隊伍資料前的待命回合數；預設為 6（Switch《火紅》的回合數），使用 --version emerald 時為 5（docs/rse_link.md，Trade）"
+"rse-trade-online:--save-rounds" = "交換完成後，再次交換隊伍資料前的待命回合數；預設為 6（Switch《火紅》的回合數），使用 --version emerald 時為 5（docs/rse_link.md，Trade）"
