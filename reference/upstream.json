@@ -9,7 +9,7 @@
   "english_git_blob_sha": "18b521a7b0e38a2a5756aaacd7419131acb2ca8a",
   "english_sha256": "53907e8bb910232b29286abcb92c0d613eb83b1acfb14a52dd40d84b0294bf59",
   "chinese_sha256": "827b17ea29e0d2fd6d3734cd3b4c59ed0061fd0c3613b044c3a5f5b5997f0b5c",
-  "package_version": "1.1.3",
-  "package_sha256": "f1231f9506831e7570dc7a08016f7399737ad953235e89d4de27ac803d335496",
+  "package_version": "1.1.3.1",
+  "package_sha256": "87aa1de5611536e320cf192f1eae3da373e1b993867933be63fa2b57922ad0dc",
   "main_strings": 1835
 }
