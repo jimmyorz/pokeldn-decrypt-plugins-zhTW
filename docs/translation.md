@@ -6,13 +6,13 @@
 
 | 資源 | 數量與用途 |
 | --- | --- |
-| `strings.toml` | 1,835 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
-| `messages.toml` | 1,667 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
+| `strings.toml` | 1,869 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
+| `messages.toml` | 1,673 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
 | `help.toml` | 784 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
-| `terms.toml` | 110 個遊戲名稱、地區及社群術語 |
-| `templates.toml` | 43 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
+| `terms.toml` | 114 個遊戲名稱、地區及社群術語 |
+| `templates.toml` | 49 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
 
-英文範本中的 34 個介面鍵值刻意原樣保留，包括 pokeldn 品牌名稱、遊戲縮寫、HP、BP、GTS、GitHub、Discord、純變數排列、指令與可匯入的 Showdown 配置範例。這些並非漏譯。
+英文範本中的 35 個介面鍵值刻意原樣保留，包括 pokeldn 品牌名稱、遊戲縮寫、HP、BP、GTS、GitHub、Discord、純變數排列、指令與可匯入的 Showdown 配置範例。這些並非漏譯。
 
 寶可夢種類、招式、特性、精靈球名稱與合法性報告，會在程式支援的顯示位置使用 PKHeX 的繁體中文資料；本包以 `zh-TW` 觸發程式既有的 `zh-Hant` 對應。未自行複製整套 PKHeX 名稱資料。
 
@@ -46,6 +46,7 @@
 - 開發板像素畫面的文字直接沿用韌體內容，未經語言包替換，仍會顯示英文；本包翻譯其設定開關與說明。
 - 檔名、原始銀行與佇列摘要、GTS 資料、設定儲存值、連線紀錄、無線通訊輸出及 `[done]` 訊息，依程式設計保留其原始資料；本包只翻譯程式開放的顯示位置。
 - 金鑰檢查與設定重設提示中的金鑰名稱、設定欄位名稱、檔案路徑及作業系統錯誤內容保留原文；外層說明已翻譯。
+- 遭遇資料選單中的遊戲版本名稱由上游直接插入英文，未經語言包替換；部分遭遇類型細節仍保留原文。遭遇地點與配信卡片標題直接採用 PKHeX 回傳內容，其實際語系仍待確認。
 - 「讀取我的資料」的結果與紀錄由上游直接插入英文遊戲名稱，日期也使用固定格式；這些部分未經語言包替換，仍可能顯示英文。
 - 尚未列入對照表的模組訊息及第三方外掛文字，會按程式規則使用英文或只替換已知術語。外掛工具的活動分類與選項組合檢查錯誤直接顯示原文，未經語言包替換。
 - 上游的 `bank.file_unreadable_0fd8f4` 仍直接把英文複數字尾 `s` 傳入格式變數，複數情況下可能多顯示一個 `s`。GTS 開放狀態字串已保留變數並抑制此字尾。
@@ -57,14 +58,14 @@
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn commit 6da8417ce96493af329f722931b6b8c501208dd8`](https://github.com/Decryptu/pokeldn/tree/6da8417ce96493af329f722931b6b8c501208dd8)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/6da8417ce96493af329f722931b6b8c501208dd8/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn commit ae685dc07ee705b24c02ebe254504fe261c89c34`](https://github.com/Decryptu/pokeldn/tree/ae685dc07ee705b24c02ebe254504fe261c89c34)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/ae685dc07ee705b24c02ebe254504fe261c89c34/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。
 
-`.pokeplugin` 本身是 ZIP 格式，內含可編輯的 TOML 原始檔、`LICENSE` 與 `plugin.sig`。若要自行調整，可將副本改為 `.zip` 後解壓縮，修改文字，再依[維護說明](maintenance.md)重新封裝與簽章。
+`.pokeplugin` 本身是 ZIP 格式，內含可編輯的 TOML 原始檔、`LICENSE`、`icon.png` 與 `plugin.sig`。若要自行調整，可將副本改為 `.zip` 後解壓縮，修改文字，再依[維護說明](maintenance.md)重新封裝與簽章。
 
 請保留鍵值、變數名稱、轉換方式與格式規格；目前唯一有意調整格式規格的項目為 `gts.open_until_offer_answered_3c9d1f`，以 `{value2:.0}` 保留英文複數字尾參數但不顯示內容。
 
-本包僅包含文字資料與授權文件，不包含 Python 程式碼。衍生翻譯內容依 AGPL-3.0-or-later 授權提供；完整授權見 [LICENSE](../LICENSE)。
+本包僅包含文字資料、圖示與授權文件，不包含 Python 程式碼。衍生翻譯內容依 AGPL-3.0-or-later 授權提供；完整授權見 [LICENSE](../LICENSE)。

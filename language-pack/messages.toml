@@ -1648,6 +1648,14 @@
 "Stand in front of it. Once the map shows after the recap, tap Up once to face it, then hold B. The game presses A by itself on a shiny frame; if the countdown passes 0 with nothing, keep holding B for the next one. This can take a few minutes" = "站在牠面前。前情回顧結束、地圖出現後，向上按一下方向鍵，讓角色面向牠，再按住 B。遊戲會自動在能遇見異色個體的時機按 A；若倒數已過 0 卻沒有反應，請繼續按住 B，等待下一次倒數。這可能需要幾分鐘"
 "Only Legends Arceus and Legends Z-A have Alpha Pokemon." = "只有《傳說 阿爾宙斯》和《傳說 Z-A》有頭目寶可夢。"
 
+# pokeldn 0.49.0：建立器選項與各遊戲訓練家資料
+"Unknown sweet." = "未知的糖飾。"
+"The Dynamax level is 0 to 10." = "極巨化等級須介於 0～10。"
+"Unknown Tera Type." = "未知的太晶屬性。"
+"This Pokemon cannot Gigantamax in this game." = "這隻寶可夢在本遊戲中無法超極巨化。"
+"The Dynamax level is not set." = "未設定極巨化等級。"
+"The original trainer of every Pokemon the app builds for you. Put your own name, gender and IDs to make them yours, so a traded Pokemon keeps its friendship: FireRed and LeafGreen show a five-digit ID, the Switch games a six-digit one. The IDs were drawn at random on first launch; Find mine takes the ones of the last game you traded with. Play several games with different saves? Give each game its own trainer; a game you leave unchanged keeps the shared one." = "App 為你建立的寶可夢所使用的初訓家資料。填入自己的名稱、性別與 ID，可讓寶可夢歸屬於你，交換後仍保有親密度。《火紅／葉綠》顯示 5 位數 ID，Switch 遊戲則顯示 6 位數。首次啟動時會隨機產生 ID；按下「讀取我的資料」，即可套用最近一次交換時讀取到的訓練家資料。若不同遊戲使用不同存檔，可為各遊戲設定獨立的訓練家資料；未另行設定的遊戲會沿用共用資料。"
+
 # 文件側邊欄－遊戲標題與子頁面
 "FireRed and LeafGreen" = "火紅／葉綠"
 "The link protocol" = "連線通訊協定"
